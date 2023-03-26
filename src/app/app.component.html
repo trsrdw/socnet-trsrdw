@@ -1,0 +1,128 @@
+<header class="navbar-dark sticky-top">
+  <div class="custom-nav navbar flex-md-nowrap">
+    <a class="navbar-brand col-md-3 col-lg-2" href="#"
+      ><span>Social</span>Network</a
+    >
+    <button
+      class="navbar-toggler position-absolute d-md-none collapsed p-2"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#userMenu"
+      aria-controls="userMenu"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="px-2"><i class="fa-solid fa-user"></i></span>
+    </button>
+    <div class="search">
+      <input
+        class="form-control form-control-dark w-100 rounded-0 border-0"
+        type="text"
+        placeholder="Find..."
+        aria-label="Search"
+      />
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+
+    <div class="up-button navbar-nav d-none d-md-block">
+      <div class="nav-item text-nowrap">
+        <span><i class="fa-solid fa-arrow-up"></i></span>
+        <a class="nav-link px-3" href="#">Upload</a>
+      </div>
+    </div>
+
+    <div class="navbar-nav sign-button d-none d-md-block">
+      <div class="nav-item text-nowrap d-flex">
+        <a class="nav-link d-flex" href="#">
+          <div class="p-3 icon-cus">
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <div class="user-name">
+            <div>
+              <span class="fname">Waseem</span>
+              <span class="lname">Arshad</span>
+            </div>
+            <span class="notification">13</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="nav-scroller d-none d-md-block">
+    <nav class="nav d-flex">
+      <div><a href="#">Videos</a></div>
+      <span>/</span>
+      <div><a href="#">People</a></div>
+      <span>/</span>
+      <div><a href="#">Documents</a></div>
+      <span>/</span>
+      <div><a href="#">Events</a></div>
+      <span>/</span>
+      <div><a href="#">Communities</a></div>
+      <span>/</span>
+      <div><a href="#">Favorites</a></div>
+      <span>/</span>
+      <div><a href="#">Channels</a></div>
+    </nav>
+  </div>
+
+  <div class="dropdown drop-res d-block d-md-none w-100">
+    <button
+      class="btn btn-secondary dropdown-toggle w-100"
+      type="button"
+      data-bs-toggle="dropdown"
+      aria-expanded="false"
+    >
+      Menu
+    </button>
+    <ul class="dropdown-menu w-100">
+      <li><a class="dropdown-item" href="#">Videos</a></li>
+      <li><a class="dropdown-item" href="#">People</a></li>
+      <li><a class="dropdown-item" href="#">Documents</a></li>
+      <li><a class="dropdown-item" href="#">Events</a></li>
+      <li><a class="dropdown-item" href="#">Communities</a></li>
+      <li><a class="dropdown-item" href="#">Favorites</a></li>
+      <li><a class="dropdown-item" href="#">Channels</a></li>
+    </ul>
+  </div>
+</header>
+
+<router-outlet></router-outlet>
+
+<footer>
+  <div class="social-btn">
+    <div class="soc-type">
+      <span><i class="fa-brands fa-twitter"></i></span>
+    </div>
+    <div class="soc-type">
+      <span><i class="fa-brands fa-linkedin-in"></i></span>
+    </div>
+    <div class="soc-type">
+      <span><i class="fa-brands fa-facebook-f"></i></span>
+    </div>
+  </div>
+
+  <div class="foot-links">
+    <div><a href="#">About</a></div>
+    <span>/</span>
+    <div><a href="#">For Business</a></div>
+    <span>/</span>
+    <div><a href="#">Suggestions</a></div>
+    <span>/</span>
+    <div><a href="#">Help & FAQs</a></div>
+    <span>/</span>
+    <div><a href="#">Contacts</a></div>
+    <span>/</span>
+    <div><a href="#">Pricing</a></div>
+  </div>
+
+  <div class="company-rules">
+    <div class="copyright">&copy; Copyright 2013 companyname inc.</div>
+    <div class="privacy d-flex">
+      <div><a href="#">Privacy</a></div>
+      <span>/</span>
+      <div><a href="#">Terms</a></div>
+    </div>
+  </div>
+</footer>
